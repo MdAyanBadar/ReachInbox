@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.19.1",
+    "@slack/webhook": "^7.0.6",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "imapflow": "^1.0.200",
+    "openai": "^6.5.0"
+  }
+}
